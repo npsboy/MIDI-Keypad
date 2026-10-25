@@ -1,6 +1,10 @@
 # MIDI Keypad — 8-bit edition
 
-![Finished board](images/finished_board_3d.png)
+![Top view](images/3d_top.png)
+
+![Front three-quarter view](images/3d_front_three_quarter.png)
+
+![Back view](images/3d_back.png)
 
 
 - **Sliders removed.** The encoder and the 3 Choc switches now share one top row, which frees a band above the keys.
