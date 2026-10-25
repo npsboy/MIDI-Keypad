@@ -1,0 +1,11 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+BZ1,Buzzer_12x9.5_P8.0mm,1,Passive buzzer,
+D1-D3,LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount,3,SK6812MINI-E,
+D4-D10,LED_D5.0mm-4_XL-504RGBC-WS2812B,7,XL-504RGBC-WS2812B,
+D11,D_DO-35_SOD27_P2.54mm_Vertical_CathodeUp,1,1N4148,
+J1,Capacitive Keys,1,Capacitive Touch Buttons,
+Q1,TO-92_Inline,1,BC547,
+R1,R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,1,1k,
+SW1-SW3,Kailh Choc Low-Profile Switches,3,SW_Push,
+SW4,RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm,1,RotaryEncoder_Switch_MP,
+U1,Waveshare ESP32-S3-Zero,1,Waveshare ESP32-S3-ZERO,

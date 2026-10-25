@@ -1,0 +1,7 @@
+(version 1)
+
+# The SK6812MINI-E reverse-mount footprint puts its pads ~0.3 mm from its own light window
+# (an Edge.Cuts cutout). The tutorial notes this is fine: big pads, hand soldered.
+(rule "SK6812 pads next to their light window"
+	(constraint edge_clearance (min 0.2mm))
+	(condition "A.memberOfFootprint('D1') || A.memberOfFootprint('D2') || A.memberOfFootprint('D3')"))
