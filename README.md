@@ -53,11 +53,3 @@ The finished project is in this folder (`MIDI-Keypad.kicad_pro`). Final checks: 
 | Q1 | 1 | BC547 (TO-92) | match the flat face to the flat side of the silkscreen outline. Collector goes on the square pad |
 | R1 | 1 | 1 kΩ 1/4 W resistor | mounted standing up |
 | D11 | 1 | 1N4148 | mounted standing up, **cathode (band) to the square pad** |
-
-## If you are building this, check before you order / solder
-- **Buzzer pin spacing:** the footprint uses the 8.0 mm from the listing. The 1.0 mm holes also take 7.6 mm-pitch buzzers, so either is fine.
-- **Make sure the buzzer is passive:** put 5V straight across it. One click means passive. A continuous beep means it's active, and it can't play notes.
-- **USB current:** 10 RGB LEDs at full white draw about 600 mA, more than a computer's USB port usually allows (500 mA). Keep LED brightness at about 50% or lower in firmware.
-- **3.3V LED data:** like the tutorial, the LEDs run on 5V but the first NeoPixel gets 3.3V data from the ESP32. This usually works. Every later LED gets a clean 5V signal.
-- **Decoupling capacitors:** the LED datasheet suggests a 100 nF capacitor per LED. The tutorial doesn't use them and neither does this board.
-- **Touch traces:** the touch keys are routed on the front only, with nothing on the back behind them, as the tutorial recommends. The firmware will still need per-key thresholds tuned on the real board.
